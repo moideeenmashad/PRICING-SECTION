@@ -1,4 +1,30 @@
 /* body */
-body{
-    background-color: black;
+body {
+  background-color: black;
+}
+
+/* card */
+.card {
+  background-color: black;
+  border-color: white;
+}
+
+.hr {
+  border: 0.4px solid white;
+  border-radius: 7px;
+}
+
+li{
+  line-height: 32px;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  transition: 900ms;
+}
+.card:not(:hover){
+  transition: 900ms;
+}
+#card-2{
+  border: 2px solid gold;
 }
