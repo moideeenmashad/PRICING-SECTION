@@ -23,7 +23,7 @@ li {
 }
 
 /* badge */
-.badge{
+.badge {
   border-radius: 12px !important;
 }
 
@@ -70,5 +70,18 @@ li {
   color: #f6ddab !important;
 }
 
+.btn-primary::after,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #42413e !important;
+}
+
 /* Team card */
 
+.badge-team {
+  border: 1px solid royalblue;
+  color: royalblue !important;
+}
+.text-team {
+  color: royalblue !important;
+}
