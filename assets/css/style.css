@@ -33,6 +33,11 @@ li {
   background-image: linear-gradient(147deg, #292828 0%, #363637 74%);
   border: none;
 }
+.secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background: #2d2c2c !important;
+}
 .badge-secondary {
   border: 1px solid white;
 }
@@ -70,10 +75,10 @@ li {
   color: #f6ddab !important;
 }
 
-.btn-primary::after,
+.primary,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #42413e !important;
+  background: #6e5709 !important;
 }
 
 /* Team card */
