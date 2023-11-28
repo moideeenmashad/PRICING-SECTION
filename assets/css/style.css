@@ -90,3 +90,6 @@ li {
 .text-team {
   color: royalblue !important;
 }
+ion-icon{
+  transform: scale(1.2);
+}
